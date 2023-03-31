@@ -3,11 +3,231 @@
   <channel>
     <title>Hemershon Silva</title>
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Jan 2023 17:29:17 -0300</pubDate>
-    <lastBuildDate>Sat, 21 Jan 2023 17:29:17 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 31 Mar 2023 16:06:05 -0300</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2023 16:06:05 -0300</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>O QUE VOCÊ PRECISA SABER SOBRE RUBY</title>
+        <description>&lt;p&gt;Aqui estão alguns tópicos interessantes sobre a linguagem Ruby:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby é uma linguagem de programação orientada a objetos, o que significa que todos os objetos em Ruby têm métodos e propriedades. Isso torna a linguagem muito flexível e permite que os desenvolvedores escrevam código mais legível e fácil de entender.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A sintaxe de Ruby é muito limpa e elegante, o que torna a linguagem fácil de ler e escrever. Além disso, a linguagem suporta muitas construções de programação funcionais e inspiradas em linguagens como Lisp e Smalltalk.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby é uma linguagem que suporta metaprogramação, o que significa que os desenvolvedores podem escrever código que pode modificar outros códigos em tempo de execução. Isso permite a criação de bibliotecas e frameworks poderosos, como o Rails.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby tem uma biblioteca padrão muito rica, o que significa que há muitas ferramentas e recursos disponíveis para os desenvolvedores usarem sem ter que instalar bibliotecas adicionais. Isso economiza tempo e torna a linguagem mais acessível para iniciantes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Embora Ruby seja uma linguagem orientada a objetos, ela também suporta programação funcional. Isso permite que os desenvolvedores escrevam código mais conciso e legível, especialmente em tarefas que envolvem transformações de dados.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby on Rails é um framework popular para a criação de aplicativos web. É conhecido por sua simplicidade e facilidade de uso, bem como sua capacidade de criar aplicativos robustos e escaláveis em um curto período de tempo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A comunidade Ruby é grande e ativa, com muitos recursos disponíveis para ajudar os desenvolvedores a aprender e usar a linguagem. Há também muitos eventos e conferências de Ruby em todo o mundo.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 31 Mar 2023 12:20:40 -0300</pubDate>
+        <link>http://localhost:4000/o-que-voce-precisa-saber-sobre-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/o-que-voce-precisa-saber-sobre-ruby</guid>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
+        
+        
+        <category>Rails</category>
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+      </item>
+    
+      <item>
+        <title>Problemas encontrado para estudar programação</title>
+        <description>&lt;p&gt;Quais são os problemas mais frequentes quando resolvemos estudar programação?&lt;/p&gt;
+
+&lt;p&gt;Vou relatar alguns problemas que passei durante minha vida de estudante da programação, esse post faz parte de como eu estudei errado.&lt;/p&gt;
+
+&lt;p&gt;Quando comecei não tinha toda essa estrutura que temos hoje de google, stack overflow, e outros.&lt;/p&gt;
+
+&lt;p&gt;A primeira dúvida era o que estudar, como começa?&lt;/p&gt;
+
+&lt;p&gt;Tutorial de html e css
+Procurei na internet alguns tutoriais que ensinava a criar sites, daí fui logo pro fogo sem saber de nada sem entender o que é html e sem entender qual era o impacto do css dentro de um site, então veio as primeiras caneladas como não sabia o que estava fazendo eu ia fazendo de qualquer jeito esperando resultados iguais do tutoriais.&lt;/p&gt;
+
+&lt;p&gt;Dicas: 
+antes de ir para o fogo, estude o básico, não saia dele antes de entender como o ecossistema funciona, não importa se é uma linguagem simples. 
+Procure alguém para pegar referência, alguém mais experiente vai te dar dicas importantes.
+Crie uma rotina de estudos com foco e disciplina.
+Estudar o que está no Hype?
+Fiquei meio perdido quando comecei, por não ter uma direção, eu estudava tudo que aparecia, então não aprendia nada.&lt;/p&gt;
+
+&lt;p&gt;Dicas:
+Separe um material, curso ou livro ou post de blog, estude, entenda e depois vá para o próximo.
+Tenha disciplina ao estudar esse material, separe um horário para aquela rotina de estudos, no começo é difícil mas com foco e disciplina você consegue.&lt;/p&gt;
+
+&lt;p&gt;Organização?
+Como relatado acima, estava perdido e não tinha um pingo de organização, 
+Não sabia o que estudava e nem sabia organizar meus estudos e meus materiais então quando pulava para outro tutorial ou livro ou curso, quase sempre me via estudando o mesmo conteúdo.&lt;/p&gt;
+
+&lt;p&gt;Dicas:
+Quando você separar o material, faça um cronograma do que você vai estudar, se for por meio de vídeos, primeiro assista e anote pontos importantes depois execute, não entendeu o processo, reveja o vídeo novamente, na sua cabeça rever o vídeo vai deixar você pra trás, acredite isso vai ajudar você lá na frente.
+Dúvidas?
+É natural quando você está estudando ter dúvidas relacionadas ao conteúdo, quando estava com dúvidas simplesmente não tinha com quem tirar, então pulava para a próxima parte do conteúdo, pois achava que tinha uma explicação no próximo capítulo ou vídeo.&lt;/p&gt;
+
+&lt;p&gt;Dicas:
+Procure um mentor, alguém que possa tirar suas dúvidas e orientar seu processo de aprendizagem.&lt;/p&gt;
+
+&lt;p&gt;Faça perguntas inteligentes.
+Confesso que hoje está mais fácil tirar dúvidas, stack overflow, google, comunidades e outros.
+Peguei algumas patadas no começo de algumas pessoas, por simplesmente não saber perguntar para ela, ou o problema era simples e não tinha lido direito, e não tinha sequer pesquisado algo antes para ver se conseguia resolver.&lt;/p&gt;
+
+&lt;p&gt;Dicas:
+Se você sentir que precisar de uma abordagem “one to one”, faça o seguinte;
+Pesquise antes no google, o problema que você está passando hoje já foi problema de alguém no passado.
+Não conseguiu entender ou não conseguiu achar, elabore sua pergunta e deixe ela o mais claro possível e deixe visível para a pessoa a parte que você não entendeu.
+Na abordagem, lembra que a pessoa que você irá pedir ajuda tem compromisso, então não faça ela perder tempo.
+Seja direto e claro.&lt;/p&gt;
+
+&lt;p&gt;Esse post foi para dar dicas para melhorar seu desempenho nos estudos da programação.
+Espero ter ajudado com esse conteúdo.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Jan 2023 14:39:02 -0300</pubDate>
+        <link>http://localhost:4000/problemas-encontrado-para-estudar-programacao</link>
+        <guid isPermaLink="true">http://localhost:4000/problemas-encontrado-para-estudar-programacao</guid>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
+        
+        
+        <category>Rails</category>
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+      </item>
+    
+      <item>
+        <title>Estudando Programação</title>
+        <description>&lt;p&gt;Estudando Programação&lt;/p&gt;
+
+&lt;p&gt;Como identifiquei que sempre estudei errado.&lt;/p&gt;
+
+&lt;p&gt;Mais uma história dessa saga de se tornar um programador.
+Quando comecei na programação há alguns anos atrás, fiquei muito perdido, como assim tem um caminho a seguir, lógica de programação, depois… ai que está o depois que é o obstáculo.
+Você não sabe o que estudar, o que é relevante para sua carreira, por isso que muitos iniciantes desistem ou até mesmo demoram a encontrar o caminho relevante.
+Imagina um iniciante estudando tudo pela frente ou pior, seguindo um passo a passo sem entender muito bem o que é o que faz e quais problemas você consegue resolver com a ferramenta.
+Então essa era minha rotina diária de estudos, depois de um certo tempo conversando com meu irmão ele me mostrou uma tecnologia nova gostei dela e fui estudar-lá.
+Só que tinha um problema, eu não tinha autogestão, então como ia estudar sem os controles principais foco e persistência, foi assim que fiquei por anos sem entender direito sobre o assunto, aí me tornei um programador mediano, não sabia usar a ferramenta direito e não conhecia todo o poder que a ferramenta tinha, nisso ficava bastante frustrado em minha capacidade técnica, passei por algumas empresas que pioraram minha frustração, e tinha o lado que não conseguia identificar meus erros, sempre me dedicando bastante para melhorar, depois do trabalho eu estudava bastante  e nada de evoluir. 
+Fui entrando e saindo das empresas com a mesma frustração de não conseguir entregar algo de valor para empresa. 
+Na minha saga de melhorar como programador, fui para em uma entrevista com tech lead Marco, que isso é assunto para outro post.
+Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, nem soft skill e nem hard skill, fui descobrindo isso quando comecei a acompanhar sua mentoria, nela descobri que um programador precisa ter uma caixa de ferramenta para melhorar como profissional, depois de muito tempo que fui entender o verdadeiro caminho das pedras.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Jan 2023 14:33:52 -0300</pubDate>
+        <link>http://localhost:4000/estudando-programacao</link>
+        <guid isPermaLink="true">http://localhost:4000/estudando-programacao</guid>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
+        
+        
+        <category>Rails</category>
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+      </item>
+    
+      <item>
+        <title>Descobrindo o caminho das pedras</title>
+        <description>&lt;p&gt;Continuando com a história de como sempre estudei errado, essa parte vou falar como melhorei meus estudos e desempenho na programação, como falei no post anterior comecei a melhorar depois da mentoria do DesenvolvendoMe.&lt;/p&gt;
+
+&lt;p&gt;Lá aprendi a usar novas técnicas de desenvolvimento de software, e o que é preciso para melhorar como programador.&lt;/p&gt;
+
+&lt;p&gt;Estudando de maneira correta.&lt;/p&gt;
+
+&lt;p&gt;vamos dizer que você está empolgado com a área de TI, são várias linguagem, vários framework, vários influenciadores, aí você começa a estudar uma tecnologia que está no hype do mercado e algumas pessoas estão comentando sobre ela, você passa uma semana ou mais estudando ela sem entender direito o que está fazendo, aí você vê o lançamento de um framework, você pensar deve ser mais fácil aprender esse framework, e você vai e muda e começa a estudar só que sem entender nada.&lt;/p&gt;
+
+&lt;p&gt;Chega uma hora que você se pergunta porque não estou entendendo e não consigo aprender.&lt;/p&gt;
+
+&lt;p&gt;Sabe porque sua lógica pode está com falhas, mais você leu em algum lugar que não precisa de lógica de programação para aprender a programar, eu sempre penso assim, pra você fritar um ovo você precisa entender o processo e seguir passo a passo, até deixar o ovo pronto, na  programação não é diferente, você vai precisar entender o processo, regras de negócios e entender sobre o próprio negócio, a lógica vai facilitar pra você esse processo.&lt;/p&gt;
+
+&lt;p&gt;O que você precisar para fixar o estudos&lt;/p&gt;
+
+&lt;p&gt;além de estudar o básico da linguagem, aconselho a você ir nesses sites de teste lógicos para que você comece a exercitar formas de resolver um problema, como Uri, Hackerrank, esses sites ajuda bastante, eles disponibilizar exercícios básicos ao avançado para todo os níveis, vale a pena separar uma hora diária para praticar.&lt;/p&gt;
+
+&lt;p&gt;Aconselho a separar 30 minutos diários para praticar o básico da linguagem.&lt;/p&gt;
+
+&lt;p&gt;E o mais importante, leia a documentação, é ali que você vai entender tudo da linguagem.&lt;/p&gt;
+
+&lt;p&gt;Planejar um projeto e executar ele também vai ajudar na evolução.&lt;/p&gt;
+
+&lt;p&gt;Bom essa foi  a parte do Hard Skill, só entenda o seguinte, aprender requer determinação e foco sem isso você vai continuar rodando em círculo, use um pomodoro para ajudar no foco, determine um tempo que você achar melhor para praticar o foco, geralmente uso uma hora focado sem distrações.&lt;/p&gt;
+
+&lt;p&gt;Agora tem a parte do soft skill.&lt;/p&gt;
+
+&lt;p&gt;Soft skill é a arte de saber perguntar, quando você está começando no mundo da programação, você tem que perguntar muito, poder parece engraçado, mas na realidade você não entender como aquilo vai funcionar não fique com vergonha mesmo sabendo que a pessoa que vai te explicar é grossa e arrogante.&lt;/p&gt;
+
+&lt;p&gt;Tinha um conhecido que ele era uma pessoa muito arrogante, toda vez que eu ia perguntar uma coisa simples ele me respondia com grosseria mais respondia, mais não seja um petelho, aprender fazer perguntas inteligentes, mais como assim perguntas inteligentes, antes de perguntar para outra pessoa vá no google que lá vai ter alguma coisa explicando de uma forma que você possivelmente não entender de cara, então anote os pontos principais e o que você não entendeu e tenta resumir de uma forma objetiva para que a pessoa que vai ouvir ou ler sua pergunta entenda, porque eu falo isso, porque a pessoa vai parar o que ela está fazendo para te ajudar, então mastiga o máximo que você puder para facilitar a resposta ou até mesmo irem juntos procurar uma solução.&lt;/p&gt;
+
+&lt;p&gt;Nas suas conversas aprender a ser objetivo, fazer rodeio mesmo sabendo o que está falando pode ser cansativo para quem está ouvindo, bateu a dúvida anote, geralmente eu anoto tudo no keep do google, depois vou lá e organizo minhas dúvidas e perguntas, antes de fazer a pergunta eu dou uma revisada e tento resumir e se bem objetivo, se caso a pessoa que está ouvindo não entender eu explico de uma forma mais detalhada.&lt;/p&gt;
+
+&lt;p&gt;Tenha sempre foco e determinação, pense assim seus estudos são como uma construção de um prédio, se você não fizer uma estrutura forte na sua base, ele vai sempre balançar.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Jan 2023 14:30:40 -0300</pubDate>
+        <link>http://localhost:4000/descobrindo-o-caminho-das-pedras</link>
+        <guid isPermaLink="true">http://localhost:4000/descobrindo-o-caminho-das-pedras</guid>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
+        
+        
+        <category>Rails</category>
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+      </item>
     
       <item>
         <title>Gem para projetos</title>
@@ -89,11 +309,23 @@ De acordo com o uso da nova estratégia de versão do RSpec Rails :&lt;/p&gt;
 &lt;p&gt;O Shoulda Matchers fornece uma linha compatível com RSpec e Minitest para testar a funcionalidade Rails comum que, se escrita à mão, seria muito mais longa, mais complexa e sujeita a erros.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2023 14:24:17 -0300</pubDate>
-        <link>/gem-para-projetos</link>
-        <guid isPermaLink="true">/gem-para-projetos</guid>
+        <link>http://localhost:4000/gem-para-projetos</link>
+        <guid isPermaLink="true">http://localhost:4000/gem-para-projetos</guid>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
         
         
         <category>Rails</category>
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
         
       </item>
     
@@ -196,11 +428,23 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 &lt;p&gt;A tipagem fraca, vem da característica da linguagem de realizar conversões automaticamente entre diferentes tipos de dados.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2023 13:57:32 -0300</pubDate>
-        <link>/o-basico-de-ruby</link>
-        <guid isPermaLink="true">/o-basico-de-ruby</guid>
+        <link>http://localhost:4000/o-basico-de-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/o-basico-de-ruby</guid>
         
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>linux</category>
+        
+        <category>metodos</category>
+        
+        
+        <category>Rails</category>
         
         <category>Ruby</category>
+        
+        <category>Code</category>
         
       </item>
     
@@ -285,8 +529,8 @@ a.select { |v| v =~ /[aeiou]/ } # [&quot;a&quot;, &quot;e&quot;]
 &lt;h5 id=&quot;fontes-apidock&quot;&gt;Fontes: Apidock&lt;/h5&gt;
 </description>
         <pubDate>Fri, 20 Jan 2023 12:33:12 -0300</pubDate>
-        <link>/metodos-para-tratar-array</link>
-        <guid isPermaLink="true">/metodos-para-tratar-array</guid>
+        <link>http://localhost:4000/metodos-para-tratar-array</link>
+        <guid isPermaLink="true">http://localhost:4000/metodos-para-tratar-array</guid>
         
         <category>rails</category>
         
