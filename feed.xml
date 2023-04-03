@@ -5,9 +5,86 @@
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Mar 2023 16:06:05 -0300</pubDate>
-    <lastBuildDate>Fri, 31 Mar 2023 16:06:05 -0300</lastBuildDate>
+    <pubDate>Mon, 03 Apr 2023 10:25:03 -0300</pubDate>
+    <lastBuildDate>Mon, 03 Apr 2023 10:25:03 -0300</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>Sintaxe Ruby</title>
+        <description>&lt;p&gt;A sintaxe Ruby é baseada em uma estrutura simples de comandos, métodos e expressões. A seguir, são apresentados alguns exemplos da sintaxe Ruby:&lt;/p&gt;
+
+&lt;p&gt;Declaração de variáveis:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nome = &quot;Maria&quot;
+idade = 25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Estruturas de controle:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if idade &amp;gt;= 18
+  puts &quot;Você é maior de idade&quot;
+else
+  puts &quot;Você é menor de idade&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Laços de repetição:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for i in 1..10
+  puts i
+end
+
+10.times do |i|
+  puts i
+end
+Definindo funções:
+css
+Copy code
+def somar(a, b)
+  return a + b
+end
+
+resultado = somar(2, 3)
+puts resultado
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trabalhando com arrays:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;numeros = [1, 2, 3, 4, 5]
+numeros.each do |numero|
+  puts numero
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trabalhando com strings:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nome = &quot;Maria&quot;
+mensagem = &quot;Olá, #{nome}!&quot;
+puts mensagem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trabalhando com classes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Pessoa
+  def initialize(nome, idade)
+    @nome = nome
+    @idade = idade
+  end
+  
+  def apresentar
+    puts &quot;Meu nome é #{@nome} e tenho #{@idade} anos&quot;
+  end
+end
+
+pessoa = Pessoa.new(&quot;Maria&quot;, 25)
+pessoa.apresentar
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Esses são apenas alguns exemplos da sintaxe Ruby. A linguagem também oferece muitas outras ferramentas e recursos, como metaprogramação, expressões regulares, manipulação de arquivos e muito mais.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Mar 2023 13:49:00 -0300</pubDate>
+        <link>http://localhost:4000/sintaxe-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/sintaxe-ruby</guid>
+        
+        
+      </item>
     
       <item>
         <title>O QUE VOCÊ PRECISA SABER SOBRE RUBY</title>

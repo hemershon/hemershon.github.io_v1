@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Estudando Programação</title>
-<meta name="description" content="Estudando Programação">
+<title>Sintaxe Ruby</title>
+<meta name="description" content="A sintaxe Ruby é baseada em uma estrutura simples de comandos, métodos e expressões. A seguir, são apresentados alguns exemplos da sintaxe Ruby:">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://localhost:4000/estudando-programacao">
+<link rel="canonical" href="http://localhost:4000/sintaxe-ruby">
 <link rel="alternate" type="application/rss+xml" title="Hemershon Silva" href="http://localhost:4000/feed.xml" />
 
 <script>
@@ -54,31 +54,81 @@
 
   <div class="card">
     <header class="post-header">
-      <h1 class="post-title">Estudando Programação</h1>
+      <h1 class="post-title">Sintaxe Ruby</h1>
       <em class="post-meta">
-        <time>Jan 21, 2023</time>
+        <time>Mar 31, 2023</time>
       </em>
     </header>
 
     <div class="post-content">
       
-        <figure class="post-thumbnail ">
-          <img src="https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/5209204535590912/image/download/6403345835622400" alt="Estudando Programação">
-        </figure>
-      
-      <p>Estudando Programação</p>
+      <p>A sintaxe Ruby é baseada em uma estrutura simples de comandos, métodos e expressões. A seguir, são apresentados alguns exemplos da sintaxe Ruby:</p>
 
-<p>Como identifiquei que sempre estudei errado.</p>
+<p>Declaração de variáveis:</p>
+<pre><code>nome = "Maria"
+idade = 25
+</code></pre>
 
-<p>Mais uma história dessa saga de se tornar um programador.
-Quando comecei na programação há alguns anos atrás, fiquei muito perdido, como assim tem um caminho a seguir, lógica de programação, depois… ai que está o depois que é o obstáculo.
-Você não sabe o que estudar, o que é relevante para sua carreira, por isso que muitos iniciantes desistem ou até mesmo demoram a encontrar o caminho relevante.
-Imagina um iniciante estudando tudo pela frente ou pior, seguindo um passo a passo sem entender muito bem o que é o que faz e quais problemas você consegue resolver com a ferramenta.
-Então essa era minha rotina diária de estudos, depois de um certo tempo conversando com meu irmão ele me mostrou uma tecnologia nova gostei dela e fui estudar-lá.
-Só que tinha um problema, eu não tinha autogestão, então como ia estudar sem os controles principais foco e persistência, foi assim que fiquei por anos sem entender direito sobre o assunto, aí me tornei um programador mediano, não sabia usar a ferramenta direito e não conhecia todo o poder que a ferramenta tinha, nisso ficava bastante frustrado em minha capacidade técnica, passei por algumas empresas que pioraram minha frustração, e tinha o lado que não conseguia identificar meus erros, sempre me dedicando bastante para melhorar, depois do trabalho eu estudava bastante  e nada de evoluir. 
-Fui entrando e saindo das empresas com a mesma frustração de não conseguir entregar algo de valor para empresa. 
-Na minha saga de melhorar como programador, fui para em uma entrevista com tech lead Marco, que isso é assunto para outro post.
-Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, nem soft skill e nem hard skill, fui descobrindo isso quando comecei a acompanhar sua mentoria, nela descobri que um programador precisa ter uma caixa de ferramenta para melhorar como profissional, depois de muito tempo que fui entender o verdadeiro caminho das pedras.</p>
+<p>Estruturas de controle:</p>
+<pre><code>if idade &gt;= 18
+  puts "Você é maior de idade"
+else
+  puts "Você é menor de idade"
+end
+</code></pre>
+
+<p>Laços de repetição:</p>
+<pre><code>for i in 1..10
+  puts i
+end
+
+10.times do |i|
+  puts i
+end
+Definindo funções:
+css
+Copy code
+def somar(a, b)
+  return a + b
+end
+
+resultado = somar(2, 3)
+puts resultado
+</code></pre>
+
+<p>Trabalhando com arrays:</p>
+
+<pre><code>numeros = [1, 2, 3, 4, 5]
+numeros.each do |numero|
+  puts numero
+end
+</code></pre>
+
+<p>Trabalhando com strings:</p>
+
+<pre><code>nome = "Maria"
+mensagem = "Olá, #{nome}!"
+puts mensagem
+</code></pre>
+
+<p>Trabalhando com classes:</p>
+
+<pre><code>class Pessoa
+  def initialize(nome, idade)
+    @nome = nome
+    @idade = idade
+  end
+  
+  def apresentar
+    puts "Meu nome é #{@nome} e tenho #{@idade} anos"
+  end
+end
+
+pessoa = Pessoa.new("Maria", 25)
+pessoa.apresentar
+</code></pre>
+
+<p>Esses são apenas alguns exemplos da sintaxe Ruby. A linguagem também oferece muitas outras ferramentas e recursos, como metaprogramação, expressões regulares, manipulação de arquivos e muito mais.</p>
 
     </div>
 
@@ -90,8 +140,8 @@ Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, 
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'http://localhost:4000/estudando-programacao';
-      this.page.identifier = '/estudando-programacao';
+      this.page.url = 'http://localhost:4000/sintaxe-ruby';
+      this.page.identifier = '/sintaxe-ruby';
     };
     (function() {
       var d = document,
