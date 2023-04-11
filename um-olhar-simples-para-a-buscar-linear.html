@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sintaxe Ruby</title>
-<meta name="description" content="A sintaxe Ruby é baseada em uma estrutura simples de comandos, métodos e expressões. A seguir, são apresentados alguns exemplos da sintaxe Ruby:">
+<title>Um olhar simples para a buscar Linear</title>
+<meta name="description" content="O algoritmo de busca linear é muito simples e intuitivo. A ideia é percorrer todos os elementos do array um por um, verificando se cada elemento é igual ao v...">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="/sintaxe-ruby">
+<link rel="canonical" href="/um-olhar-simples-para-a-buscar-linear">
 <link rel="alternate" type="application/rss+xml" title="Hemershon Silva" href="/feed.xml" />
 
 <script>
@@ -54,81 +54,51 @@
 
   <div class="card">
     <header class="post-header">
-      <h1 class="post-title">Sintaxe Ruby</h1>
+      <h1 class="post-title">Um olhar simples para a buscar Linear</h1>
       <em class="post-meta">
-        <time>Mar 31, 2023</time>
+        <time>Apr 11, 2023</time>
       </em>
     </header>
 
     <div class="post-content">
       
-      <p>A sintaxe Ruby é baseada em uma estrutura simples de comandos, métodos e expressões. A seguir, são apresentados alguns exemplos da sintaxe Ruby:</p>
+        <figure class="post-thumbnail ">
+          <img src="https://dicionariotec.com/public_html/images/linear_search.jpg" alt="Um olhar simples para a buscar Linear">
+        </figure>
+      
+      <p>O algoritmo de busca linear é muito simples e intuitivo. A ideia é percorrer todos os elementos do array um por um, verificando se cada elemento é igual ao valor de destino que estamos procurando. Se encontrarmos o elemento que estamos procurando, retornamos o índice do elemento no array. Se não encontrarmos o elemento, retornamos nil para indicar que o valor não foi encontrado.</p>
 
-<p>Declaração de variáveis:</p>
-<pre><code>nome = "Maria"
-idade = 25
-</code></pre>
+<p>Na implementação em Ruby, a função linear_search recebe dois argumentos: o array a ser pesquisado e o valor de destino que estamos procurando. Em seguida, a função usa um laço each_with_index para iterar por todos os elementos do array. A cada iteração, o laço passa o elemento atual e o índice desse elemento para um bloco que usa as variáveis item e index.</p>
 
-<p>Estruturas de controle:</p>
-<pre><code>if idade &gt;= 18
-  puts "Você é maior de idade"
-else
-  puts "Você é menor de idade"
-end
-</code></pre>
+<p>Dentro do bloco, verificamos se o elemento atual é igual ao valor de destino que estamos procurando. Se o elemento atual for igual ao valor de destino, retornamos o índice do elemento usando a palavra-chave return. Isso significa que a função termina imediatamente e não executa nenhuma iteração adicional do laço.</p>
 
-<p>Laços de repetição:</p>
-<pre><code>for i in 1..10
-  puts i
-end
+<p>Se chegarmos ao final do laço sem encontrar o valor de destino, isso significa que o valor não está presente no array e a função retorna nil.</p>
 
-10.times do |i|
-  puts i
-end
-Definindo funções:
-css
-Copy code
-def somar(a, b)
-  return a + b
-end
+<p>Aqui está um exemplo de como usar a função linear_search para procurar o valor 42 no array [1, 2, 3, 4, 5, 42, 43, 44]:</p>
 
-resultado = somar(2, 3)
-puts resultado
-</code></pre>
-
-<p>Trabalhando com arrays:</p>
-
-<pre><code>numeros = [1, 2, 3, 4, 5]
-numeros.each do |numero|
-  puts numero
-end
-</code></pre>
-
-<p>Trabalhando com strings:</p>
-
-<pre><code>nome = "Maria"
-mensagem = "Olá, #{nome}!"
-puts mensagem
-</code></pre>
-
-<p>Trabalhando com classes:</p>
-
-<pre><code>class Pessoa
-  def initialize(nome, idade)
-    @nome = nome
-    @idade = idade
+<pre><code>def linear_search(array, target)
+  array.each_with_index do |item, index|
+    if item == target
+      return index
+    end
   end
-  
-  def apresentar
-    puts "Meu nome é #{@nome} e tenho #{@idade} anos"
-  end
-end
 
-pessoa = Pessoa.new("Maria", 25)
-pessoa.apresentar
+  return nil 
+end
 </code></pre>
 
-<p>Esses são apenas alguns exemplos da sintaxe Ruby. A linguagem também oferece muitas outras ferramentas e recursos, como metaprogramação, expressões regulares, manipulação de arquivos e muito mais.</p>
+<pre><code>array = [2, 3, 4, 9, 19, 20]
+target = 20
+
+index = linear_search(array, target)
+ if index 
+  puts "O valor #{target} foi encontrado no índece #{index} do array"
+ else
+  puts "O valor #{target} não foi encontrado no array"
+ end
+
+</code></pre>
+<p>Neste exemplo, a função linear_search é usada para procurar o valor 42 no array. A função retorna o índice 5, que é o índice do valor 42 no array. Em seguida, uma mensagem é exibida informando que o valor foi encontrado no índice 5 do array.</p>
 
     </div>
 
@@ -140,8 +110,8 @@ pessoa.apresentar
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = '/sintaxe-ruby';
-      this.page.identifier = '/sintaxe-ruby';
+      this.page.url = '/um-olhar-simples-para-a-buscar-linear';
+      this.page.identifier = '/um-olhar-simples-para-a-buscar-linear';
     };
     (function() {
       var d = document,
