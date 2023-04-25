@@ -9,8 +9,8 @@
 <meta name="description" content="Continuando com a saga de como se tornar um programador, agora vou falar sobre o básico da linguagem ruby, não irei contar a história de ruby e nem como inst...">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="/o-basico-de-ruby">
-<link rel="alternate" type="application/rss+xml" title="Hemershon Silva" href="/feed.xml" />
+<link rel="canonical" href="http://localhost:4000/o-basico-de-ruby">
+<link rel="alternate" type="application/rss+xml" title="Hemershon Silva" href="http://localhost:4000/feed.xml" />
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,6 +40,8 @@
           <li><a href="/about" title="Sobre">Sobre</a></li>
         
           <li><a href="/blog" title="Blog">Blog</a></li>
+        
+          <li><a href="/project" title="Projeto">Projeto</a></li>
         
         <li><a href="/feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
       </ul>
@@ -100,38 +102,38 @@
 <p>Um dos conceitos básicos da linguagem é a declaração das variáveis, que basta uma associação entre um nome e um valor que é pronto é criada uma variável.</p>
 
 <p>Exemplo:</p>
-<pre><code class="language-ruby">Ano = 37
-</code></pre>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Ano</span> <span class="o">=</span> <span class="mi">37</span>
+</code></pre></div></div>
 <p>Para você testar, vamos usar o interpretador do ruby que é o IRB(Interactive Ruby Shell).
 Vá no seu terminal e digite irb, veja que ele vai abrir</p>
 
-<pre><code class="language-ruby">╰─ irb                       
-2.6.6 :001 &gt;
-</code></pre>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">╰─</span> <span class="n">irb</span>                       
+<span class="mf">2.6</span><span class="o">.</span><span class="mi">6</span> <span class="p">:</span><span class="mo">001</span> <span class="o">&gt;</span>
+</code></pre></div></div>
 <p>Um console que abre informando a versão do seu ruby e o número de vezes que ele foi usado.</p>
 
 <p>No primeiro exemplo declaramos uma variável do tipo inteiro que ela vai ser chamada de ano e atribuímos o valor 37 nela, mais como o interpretador sabe que ali tem uma variável do tipo inteiro.</p>
 
-<pre><code class="language-ruby">ano = 37
-</code></pre>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ano</span> <span class="o">=</span> <span class="mi">37</span>
+</code></pre></div></div>
 
 <p>Ruby tem um intérpretador que infere o tipo de variável durante a execução do código.</p>
 
 <p>Uma forma interessante para você identificar o tipo da variável</p>
-<pre><code class="language-ruby">ano = 37 
-puts ano.class
-</code></pre>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ano</span> <span class="o">=</span> <span class="mi">37</span> 
+<span class="nb">puts</span> <span class="n">ano</span><span class="p">.</span><span class="nf">class</span>
+</code></pre></div></div>
 
 <p>Você pediu para o puts mostrar o tipo da variável ano.
  Que o resultado vai ser :</p>
-<pre><code class="language-ruby">╰─ irb                          
-2.6.6 :001 &gt; 2.6.6 :001 &gt; ano = 37 
- =&gt; 37 
-2.6.6 :002 &gt; puts ano.class
-Integer
- =&gt; nil 
-2.6.6 :003 &gt; 
-</code></pre>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">╰─</span> <span class="n">irb</span>                          
+<span class="mf">2.6</span><span class="o">.</span><span class="mi">6</span> <span class="p">:</span><span class="mo">001</span> <span class="o">&gt;</span> <span class="mf">2.6</span><span class="o">.</span><span class="mi">6</span> <span class="p">:</span><span class="mo">001</span> <span class="o">&gt;</span> <span class="n">ano</span> <span class="o">=</span> <span class="mi">37</span> 
+ <span class="o">=&gt;</span> <span class="mi">37</span> 
+<span class="mf">2.6</span><span class="o">.</span><span class="mi">6</span> <span class="p">:</span><span class="mo">002</span> <span class="o">&gt;</span> <span class="nb">puts</span> <span class="n">ano</span><span class="p">.</span><span class="nf">class</span>
+<span class="no">Integer</span>
+ <span class="o">=&gt;</span> <span class="kp">nil</span> 
+<span class="mf">2.6</span><span class="o">.</span><span class="mi">6</span> <span class="p">:</span><span class="mo">003</span> <span class="o">&gt;</span> 
+</code></pre></div></div>
 
 <p>Quando chamamos o <strong>.class</strong> depois de qualquer variável ele trás o tipo de variável.</p>
 
@@ -172,13 +174,13 @@ Ruby, Python, Clojure, Elixir.</p>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = '/o-basico-de-ruby';
+      this.page.url = 'http://localhost:4000/o-basico-de-ruby';
       this.page.identifier = '/o-basico-de-ruby';
     };
     (function() {
       var d = document,
       s = d.createElement('script');
-      s.src = '//hemershonsilva.disqus.com/embed.js';
+      s.src = '//hemershon.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
