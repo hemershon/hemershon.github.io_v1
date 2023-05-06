@@ -3,10 +3,10 @@
   <channel>
     <title>Hemershon Silva</title>
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2023 14:58:03 -0300</pubDate>
-    <lastBuildDate>Thu, 04 May 2023 14:58:03 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 May 2023 17:02:43 -0300</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 17:02:43 -0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -21,16 +21,17 @@
 
 &lt;p&gt;Aqui está um exemplo de como usar a função linear_search para procurar o valor 42 no array [1, 2, 3, 4, 5, 42, 43, 44]:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def linear_search(array, target)
-  array.each_with_index do |item, index|
-    if item == target
-      return index
-    end
-  end
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;linear_search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each_with_index&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-  return nil 
-end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'alert'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;array = [2, 3, 4, 9, 19, 20]
 target = 20
@@ -46,8 +47,8 @@ index = linear_search(array, target)
 &lt;p&gt;Neste exemplo, a função linear_search é usada para procurar o valor 42 no array. A função retorna o índice 5, que é o índice do valor 42 no array. Em seguida, uma mensagem é exibida informando que o valor foi encontrado no índice 5 do array.&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Apr 2023 13:22:55 -0300</pubDate>
-        <link>/um-olhar-simples-para-a-buscar-linear</link>
-        <guid isPermaLink="true">/um-olhar-simples-para-a-buscar-linear</guid>
+        <link>http://localhost:4000/um-olhar-simples-para-a-buscar-linear</link>
+        <guid isPermaLink="true">http://localhost:4000/um-olhar-simples-para-a-buscar-linear</guid>
         
         <category>ruby</category>
         
@@ -135,8 +136,8 @@ pessoa.apresentar
 &lt;p&gt;Esses são apenas alguns exemplos da sintaxe Ruby. A linguagem também oferece muitas outras ferramentas e recursos, como metaprogramação, expressões regulares, manipulação de arquivos e muito mais.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Mar 2023 13:49:00 -0300</pubDate>
-        <link>/sintaxe-ruby</link>
-        <guid isPermaLink="true">/sintaxe-ruby</guid>
+        <link>http://localhost:4000/sintaxe-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/sintaxe-ruby</guid>
         
         
       </item>
@@ -174,8 +175,8 @@ pessoa.apresentar
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 31 Mar 2023 12:20:40 -0300</pubDate>
-        <link>/o-que-voce-precisa-saber-sobre-ruby</link>
-        <guid isPermaLink="true">/o-que-voce-precisa-saber-sobre-ruby</guid>
+        <link>http://localhost:4000/o-que-voce-precisa-saber-sobre-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/o-que-voce-precisa-saber-sobre-ruby</guid>
         
         <category>rails</category>
         
@@ -246,8 +247,8 @@ Espero ter ajudado com esse conteúdo.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 21 Jan 2023 14:39:02 -0300</pubDate>
-        <link>/problemas-encontrado-para-estudar-programacao</link>
-        <guid isPermaLink="true">/problemas-encontrado-para-estudar-programacao</guid>
+        <link>http://localhost:4000/problemas-encontrado-para-estudar-programacao</link>
+        <guid isPermaLink="true">http://localhost:4000/problemas-encontrado-para-estudar-programacao</guid>
         
         <category>rails</category>
         
@@ -283,8 +284,8 @@ Na minha saga de melhorar como programador, fui para em uma entrevista com tech 
 Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, nem soft skill e nem hard skill, fui descobrindo isso quando comecei a acompanhar sua mentoria, nela descobri que um programador precisa ter uma caixa de ferramenta para melhorar como profissional, depois de muito tempo que fui entender o verdadeiro caminho das pedras.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2023 14:33:52 -0300</pubDate>
-        <link>/estudando-programacao</link>
-        <guid isPermaLink="true">/estudando-programacao</guid>
+        <link>http://localhost:4000/estudando-programacao</link>
+        <guid isPermaLink="true">http://localhost:4000/estudando-programacao</guid>
         
         <category>rails</category>
         
@@ -341,8 +342,8 @@ Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, 
 
 </description>
         <pubDate>Sat, 21 Jan 2023 14:30:40 -0300</pubDate>
-        <link>/descobrindo-o-caminho-das-pedras</link>
-        <guid isPermaLink="true">/descobrindo-o-caminho-das-pedras</guid>
+        <link>http://localhost:4000/descobrindo-o-caminho-das-pedras</link>
+        <guid isPermaLink="true">http://localhost:4000/descobrindo-o-caminho-das-pedras</guid>
         
         <category>rails</category>
         
@@ -441,8 +442,8 @@ De acordo com o uso da nova estratégia de versão do RSpec Rails :&lt;/p&gt;
 &lt;p&gt;O Shoulda Matchers fornece uma linha compatível com RSpec e Minitest para testar a funcionalidade Rails comum que, se escrita à mão, seria muito mais longa, mais complexa e sujeita a erros.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2023 14:24:17 -0300</pubDate>
-        <link>/gem-para-projetos</link>
-        <guid isPermaLink="true">/gem-para-projetos</guid>
+        <link>http://localhost:4000/gem-para-projetos</link>
+        <guid isPermaLink="true">http://localhost:4000/gem-para-projetos</guid>
         
         <category>rails</category>
         
@@ -560,8 +561,8 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 &lt;p&gt;A tipagem fraca, vem da característica da linguagem de realizar conversões automaticamente entre diferentes tipos de dados.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2023 13:57:32 -0300</pubDate>
-        <link>/o-basico-de-ruby</link>
-        <guid isPermaLink="true">/o-basico-de-ruby</guid>
+        <link>http://localhost:4000/o-basico-de-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/o-basico-de-ruby</guid>
         
         <category>rails</category>
         
@@ -582,7 +583,7 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
     
       <item>
         <title>MÉTODOS PARA TRATAR ARRAY</title>
-        <description>&lt;p&gt;Recentemente me deparei em uma situação interessante, qual é o momento em que devemos usar &lt;strong&gt;map&lt;/strong&gt;, &lt;strong&gt;select&lt;/strong&gt; e o &lt;strong&gt;each&lt;/strong&gt;, normalmente eu uso o &lt;strong&gt;each&lt;/strong&gt; com frequência aí veio a dúvida em qual momento devemos usar os outros métodos e qual é a diferença entre eles?&lt;/p&gt;
+        <description>&lt;p&gt;Recentemente me deparei em uma situação interessante, qual é o momento em que devemos usar &lt;em&gt;map&lt;/em&gt;, &lt;em&gt;select&lt;/em&gt; e o &lt;em&gt;each&lt;/em&gt;, normalmente eu uso o &lt;em&gt;each&lt;/em&gt; com frequência aí veio a dúvida em qual momento devemos usar os outros métodos e qual é a diferença entre eles?&lt;/p&gt;
 
 &lt;p&gt;Dica: antes de procura em toda parte da web vá primeiro na documentação leia se não entendeu procure contexto diferentes de explicação, por que é importante você saber usar a documentação. Procurando na documentação você se depara com a seguinte situação;&lt;/p&gt;
 
@@ -597,9 +598,9 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 &lt;p&gt;Dada uma matriz de strings, você pode passar por cima de cada string e tornar cada caractere maiúsculo&lt;/p&gt;
 
 &lt;h4 id=&quot;sintaxe-do-map-no-ruby&quot;&gt;Sintaxe do map no Ruby&lt;/h4&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;upcase&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;upcase&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;collect&quot;&gt;Collect&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;collect&lt;/strong&gt; invoca o bloco fornecido uma vez para cada elemento de self, ele criar um novo array contendo os valores retornados pelo bloco, se não estiver nenhum bloco ele será retornado um Enumerador, no caso é a mesma coisa que o map.&lt;/p&gt;
@@ -609,19 +610,19 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 &lt;p&gt;O collect() de enumerable é um método embutido em ruby que retorna um novo array com resultados da execução do bloco uma vez para cada elemento em enum O objeto é repetido todas as veses para cada enum, caso nenhum objeto seja fornecido, ele retorna nil para cada enum&lt;/p&gt;
 
 &lt;h3 id=&quot;sintaxe&quot;&gt;Sintaxe:&lt;/h3&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bloquado&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bloquado&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Parâmetros: A função pega o objeto e o bloco que é para cada enum, também leva r1 e r2 que decide o número de elementos no enumerável retornado.&lt;/p&gt;
 
 &lt;p&gt;valor do retorno: Retorna um novo array&lt;/p&gt;
 
 &lt;p&gt;retorna o enumerador&lt;/p&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [20, 30, 40, 50, 60]&lt;/span&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [20, 30, 40, 50, 60]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;retorna&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;valor&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [nil, nil, nil, nil, nil]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [nil, nil, nil, nil, nil]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h5 id=&quot;fonte-geeksforgeeks&quot;&gt;fonte: Geeksforgeeks&lt;/h5&gt;
 &lt;h2 id=&quot;select&quot;&gt;Select&lt;/h2&gt;
@@ -630,14 +631,12 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 
 &lt;p&gt;Exemplo:&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;event?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [2, 4]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;event?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [2, 4]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Exemplo 2:&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%w{ a b c d e f }&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[aeiou]/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;a&quot;, &quot;e&quot;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%w{ a b c d e f }&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[aeiou]/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;a&quot;, &quot;e&quot;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;detalhes-do-select&quot;&gt;Detalhes do select&lt;/h4&gt;
 
@@ -652,17 +651,17 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
 &lt;h5 id=&quot;fonte-geeksforgeeks-1&quot;&gt;fonte: Geeksforgeeks&lt;/h5&gt;
 
 &lt;p&gt;O each chama o bloco fornecido uma vez para cada elemento em self, passando esse elemento como um parâmetro, no caso ele retornar o próprio array, se caso nenhum bloco for fornecedor ele também traz um Enumerador.&lt;/p&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;--&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# a--b--c-- =&amp;gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;--&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# a--b--c-- =&amp;gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Isso foi um resumo para entender melhor como tratar seus array usando métodos diferentes para situações diferentes.&lt;/p&gt;
 
-&lt;h5 id=&quot;fontes-apidock&quot;&gt;Fontes: Apidock&lt;/h5&gt;
+&lt;h5 id=&quot;fontes-apidock&quot;&gt;Fontes: &lt;a href=&quot;https://ruby-doc.org/core-2.7.0/Array.html&quot;&gt;Apidock&lt;/a&gt;&lt;/h5&gt;
 </description>
         <pubDate>Fri, 20 Jan 2023 12:33:12 -0300</pubDate>
-        <link>/metodos-para-tratar-array</link>
-        <guid isPermaLink="true">/metodos-para-tratar-array</guid>
+        <link>http://localhost:4000/metodos-para-tratar-array</link>
+        <guid isPermaLink="true">http://localhost:4000/metodos-para-tratar-array</guid>
         
         <category>rails</category>
         
