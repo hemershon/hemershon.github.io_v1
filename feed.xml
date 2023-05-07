@@ -5,8 +5,8 @@
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2023 17:02:43 -0300</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 17:02:43 -0300</lastBuildDate>
+    <pubDate>Sun, 07 May 2023 17:16:13 -0300</pubDate>
+    <lastBuildDate>Sun, 07 May 2023 17:16:13 -0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -144,7 +144,7 @@ pessoa.apresentar
     
       <item>
         <title>O QUE VOCÊ PRECISA SABER SOBRE RUBY</title>
-        <description>&lt;p&gt;Aqui estão alguns tópicos interessantes sobre a linguagem Ruby:&lt;/p&gt;
+        <description>&lt;h3 id=&quot;aqui-estão-alguns-tópicos-interessantes-sobre-a-linguagem-ruby&quot;&gt;Aqui estão alguns tópicos interessantes sobre a linguagem Ruby:&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Ruby é uma linguagem de programação orientada a objetos, o que significa que todos os objetos em Ruby têm métodos e propriedades. Isso torna a linguagem muito flexível e permite que os desenvolvedores escrevam código mais legível e fácil de entender.&lt;/p&gt;
