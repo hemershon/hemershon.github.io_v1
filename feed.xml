@@ -5,9 +5,51 @@
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 May 2023 19:26:32 -0300</pubDate>
-    <lastBuildDate>Mon, 08 May 2023 19:26:32 -0300</lastBuildDate>
+    <pubDate>Tue, 30 May 2023 14:47:44 -0300</pubDate>
+    <lastBuildDate>Tue, 30 May 2023 14:47:44 -0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Fundamentos do Rspec</title>
+        <description>&lt;p&gt;O RSpec é uma biblioteca de teste de comportamento (behavior-driven testing) para a linguagem de programação Ruby. O seu objetivo é facilitar a escrita de testes legíveis e expressivos, fornecendo uma sintaxe clara e concisa que descreve o comportamento esperado de um sistema.&lt;/p&gt;
+
+&lt;p&gt;O fundamento básico do RSpec é o uso de uma sintaxe de domínio específica (DSL - Domain Specific Language) que permite que os testes sejam escritos de forma semelhante à especificação do comportamento do sistema. Isso ajuda a criar uma documentação viva dos requisitos e comportamentos esperados, além de facilitar a leitura e manutenção dos testes.&lt;/p&gt;
+
+&lt;p&gt;O RSpec segue uma abordagem chamada “describe-it”, onde os testes são organizados em blocos descritivos chamados “describe” que agrupam os cenários de teste relacionados. Dentro de cada bloco “describe”, são definidos os testes individuais utilizando a palavra-chave “it”. Cada teste deve ter uma expectativa (expectation) que define o resultado esperado.&lt;/p&gt;
+
+&lt;p&gt;Além disso, o RSpec fornece uma série de “matchers” que são utilizados para verificar se um resultado é igual ao esperado. Esses matchers incluem comparações de igualdade, verificação de tipos, comparação de coleções, entre outros.&lt;/p&gt;
+
+&lt;p&gt;A estrutura básica de um teste RSpec é a seguinte:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Nome do objeto em teste&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;descrição do cenário de teste&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Configuração do ambiente de teste&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Ação a ser testada&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Verificação do resultado esperado usando os matchers&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Essa é apenas uma visão geral do fundamento básico do RSpec. A biblioteca oferece muitos recursos adicionais, como “before” e “after” hooks para configuração prévia e limpeza posterior dos testes, uso de “context” para definir diferentes cenários, uso de “mocks” e “stubs” para simular comportamentos, entre outros. Esses recursos permitem que os testes sejam escritos de forma mais eficiente e flexível.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 29 May 2023 11:17:51 -0300</pubDate>
+        <link>http://localhost:4000/fundamentos-do-rspec</link>
+        <guid isPermaLink="true">http://localhost:4000/fundamentos-do-rspec</guid>
+        
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+        <category>rspec</category>
+        
+        <category>tdd</category>
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>Um olhar simples para a buscar Linear</title>
