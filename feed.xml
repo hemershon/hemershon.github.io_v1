@@ -5,9 +5,109 @@
     <description>Engenheiro de software e Ciêntista da computação, intusiasta pelo mundo da tecnologia</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 May 2023 16:22:41 -0300</pubDate>
-    <lastBuildDate>Tue, 30 May 2023 16:22:41 -0300</lastBuildDate>
+    <pubDate>Wed, 07 Jun 2023 11:07:33 -0300</pubDate>
+    <lastBuildDate>Wed, 07 Jun 2023 11:07:33 -0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Básico de TDD usando Ruby</title>
+        <description>&lt;h1 id=&quot;básico-de-tdd-usando-ruby&quot;&gt;Básico de TDD usando Ruby&lt;/h1&gt;
+
+&lt;p&gt;O Test-Driven Development (TDD) é uma abordagem de desenvolvimento de software que envolve escrever os testes antes de implementar o código. Aqui está um exemplo básico de como aplicar o TDD usando Ruby:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Passo 1: Escrever o teste
+Comece escrevendo um teste que descreva o comportamento desejado do código que você irá implementar. Aqui está um exemplo de teste usando o framework RSpec:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# arquivo: calculator_spec.rb&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rspec'&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'calculator'&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Calculator&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'deve somar dois números corretamente'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;calculator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Nesse exemplo, estamos testando a funcionalidade de soma em uma classe Calculator. O teste espera que a soma de 2 e 3 seja igual a 5.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Passo 2: Executar o teste (e falhar)
+Agora, execute o teste. Como você ainda não implementou o código, o teste irá falhar, o que é esperado neste ponto.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rspec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculator_spec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rb&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Failures&lt;/span&gt;
+
+  &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Calculator&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;deve&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;somar&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dois&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;ú&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;meros&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;corretamente&lt;/span&gt;
+     &lt;span class=&quot;no&quot;&gt;Failure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;ss&quot;&gt;expected: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+             &lt;span class=&quot;ss&quot;&gt;got: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
+      
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compared&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Passo 3: Implementar o código mínimo necessário
+Agora, implemente o código mínimo necessário para fazer o teste passar. Neste caso, crie um arquivo calculator.rb e defina a classe Calculator com o método sum:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# arquivo: calculator.rb&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Calculator&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Passo 4: Executar o teste novamente (e passar)
+Execute o teste novamente e verifique se ele passa agora:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rspec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculator_spec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rb&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;failures&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O teste deve passar sem erros. Isso significa que a implementação do método sum na classe Calculator está correta.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Passo 5: Refatorar e repetir&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Agora que o teste passou, você pode refatorar o código se necessário. Refatoração envolve melhorar o design, legibilidade e desempenho do código sem alterar seu comportamento. Durante a refatoração, você pode executar os testes novamente para garantir que tudo continua funcionando corretamente.&lt;/p&gt;
+
+&lt;p&gt;Repita esses passos para cada nova funcionalidade ou alteração que você desejar fazer no código. O ciclo de TDD é composto por escrever um teste, executá-lo (esperando uma falha), implementar o código mínimo necessário para fazer o teste passar e, em seguida, refatorar o código.&lt;/p&gt;
+
+&lt;p&gt;Essa é apenas uma introdução básica ao TDD usando Ruby. À medida que você ganha mais experiência, pode explorar recursos adicionais, como testes mais complexos, testes de borda, testes de integração e ferramentas auxiliares para testes, como mocks e stubs.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Jun 2023 07:21:50 -0300</pubDate>
+        <link>http://localhost:4000/basico-de-tdd-usando-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/basico-de-tdd-usando-ruby</guid>
+        
+        <category>ruby</category>
+        
+        <category>rspec</category>
+        
+        <category>tdd</category>
+        
+        
+        <category>Ruby</category>
+        
+        <category>Code</category>
+        
+        <category>rspec</category>
+        
+        <category>tdd</category>
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>Fundamentos do Rspec</title>
@@ -37,6 +137,12 @@
         <pubDate>Mon, 29 May 2023 11:17:51 -0300</pubDate>
         <link>http://localhost:4000/fundamentos-do-rspec</link>
         <guid isPermaLink="true">http://localhost:4000/fundamentos-do-rspec</guid>
+        
+        <category>ruby</category>
+        
+        <category>rspec</category>
+        
+        <category>tdd</category>
         
         
         <category>Ruby</category>
@@ -605,105 +711,6 @@ Ruby, Python, Clojure, Elixir.&lt;/p&gt;
         <pubDate>Sat, 21 Jan 2023 13:57:32 -0300</pubDate>
         <link>http://localhost:4000/o-basico-de-ruby</link>
         <guid isPermaLink="true">http://localhost:4000/o-basico-de-ruby</guid>
-        
-        <category>rails</category>
-        
-        <category>ruby</category>
-        
-        <category>linux</category>
-        
-        <category>metodos</category>
-        
-        
-        <category>Rails</category>
-        
-        <category>Ruby</category>
-        
-        <category>Code</category>
-        
-      </item>
-    
-      <item>
-        <title>MÉTODOS PARA TRATAR ARRAY</title>
-        <description>&lt;p&gt;Recentemente me deparei em uma situação interessante, qual é o momento em que devemos usar &lt;em&gt;map&lt;/em&gt;, &lt;em&gt;select&lt;/em&gt; e o &lt;em&gt;each&lt;/em&gt;, normalmente eu uso o &lt;em&gt;each&lt;/em&gt; com frequência aí veio a dúvida em qual momento devemos usar os outros métodos e qual é a diferença entre eles?&lt;/p&gt;
-
-&lt;p&gt;Dica: antes de procura em toda parte da web vá primeiro na documentação leia se não entendeu procure contexto diferentes de explicação, por que é importante você saber usar a documentação. Procurando na documentação você se depara com a seguinte situação;&lt;/p&gt;
-
-&lt;h2 id=&quot;map&quot;&gt;MAP&lt;/h2&gt;
-
-&lt;p&gt;O &lt;strong&gt;map&lt;/strong&gt; invoca o bloco fornecido uma vez para cada elemento de self. Criando um novo array contendo os valores retornados pelo bloco, se caso nenhum bloco for fornecido, um Enumerador será retornado&lt;/p&gt;
-
-&lt;h4 id=&quot;detalhes-do-map&quot;&gt;Detalhes do &lt;strong&gt;map&lt;/strong&gt;:&lt;/h4&gt;
-&lt;p&gt;O podemos usar ele com &lt;strong&gt;&lt;em&gt;arrays&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;hashes&lt;/em&gt;&lt;/strong&gt; e &lt;strong&gt;&lt;em&gt;ranges&lt;/em&gt;&lt;/strong&gt; o principal uso do &lt;strong&gt;&lt;em&gt;map&lt;/em&gt;&lt;/strong&gt; é transformar dados.&lt;/p&gt;
-
-&lt;h4 id=&quot;por-exemplo&quot;&gt;por exemplo:&lt;/h4&gt;
-&lt;p&gt;Dada uma matriz de strings, você pode passar por cima de cada string e tornar cada caractere maiúsculo&lt;/p&gt;
-
-&lt;h4 id=&quot;sintaxe-do-map-no-ruby&quot;&gt;Sintaxe do map no Ruby&lt;/h4&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;upcase&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;collect&quot;&gt;Collect&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;collect&lt;/strong&gt; invoca o bloco fornecido uma vez para cada elemento de self, ele criar um novo array contendo os valores retornados pelo bloco, se não estiver nenhum bloco ele será retornado um Enumerador, no caso é a mesma coisa que o map.&lt;/p&gt;
-
-&lt;h4 id=&quot;detalhes-do-collect&quot;&gt;Detalhes do collect&lt;/h4&gt;
-
-&lt;p&gt;O collect() de enumerable é um método embutido em ruby que retorna um novo array com resultados da execução do bloco uma vez para cada elemento em enum O objeto é repetido todas as veses para cada enum, caso nenhum objeto seja fornecido, ele retorna nil para cada enum&lt;/p&gt;
-
-&lt;h3 id=&quot;sintaxe&quot;&gt;Sintaxe:&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bloquado&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Parâmetros: A função pega o objeto e o bloco que é para cada enum, também leva r1 e r2 que decide o número de elementos no enumerável retornado.&lt;/p&gt;
-
-&lt;p&gt;valor do retorno: Retorna um novo array&lt;/p&gt;
-
-&lt;p&gt;retorna o enumerador&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [20, 30, 40, 50, 60]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;retorna&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;valor&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;enu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [nil, nil, nil, nil, nil]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h5 id=&quot;fonte-geeksforgeeks&quot;&gt;fonte: Geeksforgeeks&lt;/h5&gt;
-&lt;h2 id=&quot;select&quot;&gt;Select&lt;/h2&gt;
-
-&lt;p&gt;O &lt;strong&gt;select&lt;/strong&gt; funciona de duas maneiras únicas; Primeiro: pega o bloco para que possa ser usado como array#select Segundo: Modifica a instrução SELECT da consulta para que apenas determinados campos sejam recuperados.&lt;/p&gt;
-
-&lt;p&gt;Exemplo:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;event?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [2, 4]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Exemplo 2:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%w{ a b c d e f }&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[aeiou]/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# [&quot;a&quot;, &quot;e&quot;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;detalhes-do-select&quot;&gt;Detalhes do select&lt;/h4&gt;
-
-&lt;p&gt;Select é um método de calsse array que retorna um novo array contendo todos os elementos do array para os quais o bloco dado retorna um valor verdadeiro.&lt;/p&gt;
-
-&lt;p&gt;Sintaxe: array.select()&lt;/p&gt;
-
-&lt;p&gt;Parâmentro: Matriz&lt;/p&gt;
-
-&lt;p&gt;Retorno: Uma nova matriz contendo todos os elemetos da matriz para os quais o bloco fornecido retorna um valor verdadeiro.&lt;/p&gt;
-
-&lt;h5 id=&quot;fonte-geeksforgeeks-1&quot;&gt;fonte: Geeksforgeeks&lt;/h5&gt;
-
-&lt;p&gt;O each chama o bloco fornecido uma vez para cada elemento em self, passando esse elemento como um parâmetro, no caso ele retornar o próprio array, se caso nenhum bloco for fornecedor ele também traz um Enumerador.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;--&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# a--b--c-- =&amp;gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Isso foi um resumo para entender melhor como tratar seus array usando métodos diferentes para situações diferentes.&lt;/p&gt;
-
-&lt;h5 id=&quot;fontes-apidock&quot;&gt;Fontes: &lt;a href=&quot;https://ruby-doc.org/core-2.7.0/Array.html&quot;&gt;Apidock&lt;/a&gt;&lt;/h5&gt;
-</description>
-        <pubDate>Fri, 20 Jan 2023 12:33:12 -0300</pubDate>
-        <link>http://localhost:4000/metodos-para-tratar-array</link>
-        <guid isPermaLink="true">http://localhost:4000/metodos-para-tratar-array</guid>
         
         <category>rails</category>
         
